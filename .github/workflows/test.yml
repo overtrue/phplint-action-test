@@ -27,6 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Check PHP syntax errors
-        uses: overtrue/phplint@2.3.5
+        uses: overtrue/phplint@2.4.0
         with:
           path: ./src
